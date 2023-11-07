@@ -1,3 +1,7 @@
+import java.util.UUID;
+
+import static java.util.UUID.*;
+
 public class Db {
 
     private DbSetting dbSetting;

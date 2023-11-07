@@ -1,3 +1,5 @@
+import java.util.UUID;
+
 public class MyEntity {
 
     private UUID id;
@@ -27,4 +29,5 @@ public class MyEntity {
     public String toString() {
         return new StringBuilder().append("MyEntity{").append("id=").append(id).append(", name='").append(name).append('\'').append('}').toString();
     }
+
 }

@@ -15,6 +15,7 @@ dependencies {
 }
 
 dependencies {
+    implementation("io.github.andriamarosoa:Entity:1.0.0")
     implementation (project(":db"))
     implementation (project(":service"))
 }
